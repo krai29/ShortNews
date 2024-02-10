@@ -9,4 +9,6 @@ object Versions {
     const val compose = "1.6.0"
     const val navigationCompose = "2.7.6"
     const val lifecycleViewModelKtx = "2.7.0"
+    const val hilt = "2.48"
+    const val hiltCompiler = "1.1.0"
 }
