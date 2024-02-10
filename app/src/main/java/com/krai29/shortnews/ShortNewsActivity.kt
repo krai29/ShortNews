@@ -9,7 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import com.krai29.shortnews.ui.component.AppNavigationGraph
+import com.krai29.shortnews.ui.navigation.AppNavigationGraph
 import com.krai29.shortnews.ui.theme.ShortNewsTheme
 import dagger.hilt.android.AndroidEntryPoint
 
