@@ -2,6 +2,9 @@ package com.krai29.shortnews.di
 
 import com.krai29.shortnews.data.AppConstants.APP_BASE_URL
 import com.krai29.shortnews.data.api.ApiService
+import com.krai29.shortnews.data.datasource.NewsDataSource
+import com.krai29.shortnews.data.datasource.NewsDataSourceImpl
+import com.krai29.shortnews.ui.repositories.ShortNewsRepository
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import dagger.Module
@@ -43,5 +46,17 @@ class AppModule {
     @Singleton
     fun providesApiService(retrofit: Retrofit) : ApiService{
         return retrofit.create(ApiService::class.java)
+    }
+
+    @Provides
+    @Singleton
+    fun providesNewsDataSource(apiService: ApiService):NewsDataSource{
+        return NewsDataSourceImpl(apiService)
+    }
+
+    @Provides
+    @Singleton
+    fun providesShortNewsRepository(newsDataSource: NewsDataSource):ShortNewsRepository{
+        return ShortNewsRepository(newsDataSource)
     }
 }

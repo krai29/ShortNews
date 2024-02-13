@@ -84,6 +84,8 @@ dependencies {
     implementation(Dependencies.moshi)
     implementation(Dependencies.moshiConverter)
     implementation(Dependencies.loggingInterceptor)
+    implementation(Dependencies.coroutinesCore)
+    implementation(Dependencies.coroutinesAndroid)
 
     implementation(project(Modules.utilities))
 }
