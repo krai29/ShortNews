@@ -79,5 +79,11 @@ dependencies {
 
     implementation(Dependencies.hiltNavigationCompose)
 
+    implementation(Dependencies.retrofit)
+    implementation(Dependencies.okhttp)
+    implementation(Dependencies.moshi)
+    implementation(Dependencies.moshiConverter)
+    implementation(Dependencies.loggingInterceptor)
+
     implementation(project(Modules.utilities))
 }

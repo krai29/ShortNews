@@ -1,4 +1,4 @@
-package com.krai29.shortnews
+package com.krai29.shortnews.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
