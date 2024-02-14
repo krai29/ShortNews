@@ -4,7 +4,7 @@ object Dependencies {
     val appcompat by lazy { "androidx.appcompat:appcompat:${Versions.appCompat}" }
     val material by lazy { "com.google.android.material:material:${Versions.material}" }
     val lifecycleRuntimeKtx by lazy { "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifecycleRuntimeKtx}" }
-    val composeMaterial3 by lazy { "androidx.compose.material3:material3" }
+    val composeMaterial3 by lazy { "androidx.compose.material3:material3-android:${Versions.composeMaterial3}" }
     val activityCompose by lazy { "androidx.activity:activity-compose:${Versions.activityCompose}" }
     val composeBom by lazy { "androidx.compose:compose-bom:${Versions.composeBom}" }
     val composeUi by lazy { "androidx.compose.ui:ui" }
@@ -30,6 +30,7 @@ object Dependencies {
     val loggingInterceptor by lazy { "com.squareup.okhttp3:logging-interceptor:${Versions.loggingInterceptor}" }
     val coroutinesCore by lazy { "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}" }
     val coroutinesAndroid by lazy { "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}" }
+    val splashScreen by lazy { "androidx.core:core-splashscreen:${Versions.splashScreen}" }
 }
 
 object Modules {

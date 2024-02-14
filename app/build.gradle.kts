@@ -86,6 +86,7 @@ dependencies {
     implementation(Dependencies.loggingInterceptor)
     implementation(Dependencies.coroutinesCore)
     implementation(Dependencies.coroutinesAndroid)
+    implementation(Dependencies.splashScreen)
 
     implementation(project(Modules.utilities))
 }
