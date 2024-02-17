@@ -16,8 +16,8 @@ import com.krai29.shortnews.ui.theme.Purple40
 fun ProgressLoader() {
     Column(
         modifier = Modifier
-            .fillMaxSize()
-            .padding(8.dp),
+            .fillMaxSize(),
+           // .padding(8.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
