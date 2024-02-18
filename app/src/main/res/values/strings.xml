@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ShortNews</string>
+    <string name="no_news_now_please_check_later">No news now. Please check later</string>
 </resources>

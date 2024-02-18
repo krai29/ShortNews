@@ -3,6 +3,7 @@ object Versions {
     const val coreKtx = "1.9.0"
     const val appCompat = "1.6.1"
     const val material = "1.11.0"
+    const val composeMaterial3 = "1.2.0"
     const val lifecycleRuntimeKtx = "2.7.0"
     const val activityCompose = "1.8.2"
     const val composeBom = "2024.01.00"
@@ -18,4 +19,7 @@ object Versions {
     const val moshi = "1.13.0"
     const val moshiConverter = "2.9.0"
     const val loggingInterceptor = "4.8.1"
+    const val coroutines = "1.7.3"
+    const val splashScreen = "1.0.1"
+    const val coil = "2.2.0"
 }
